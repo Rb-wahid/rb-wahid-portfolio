@@ -75,18 +75,30 @@ const Navbar = () => {
         </ul>
       </div>
       <div class="navbar-end">
-        <a href="#!" class="btn btn-secondary flex justify-center items-center">
+        <a
+          href="https://www.linkedin.com/in/rb-wahid/"
+          target="_blank"
+          rel="noreferrer"
+          class="btn btn-secondary flex justify-center items-center"
+        >
           <span> LINKEDIN</span>
           <FaLinkedin className="ml-2 w-5 h-6" />
         </a>
         <a
-          href="#!"
+          href="https://github.com/rb-wahid"
+          target="_blank"
+          rel="noreferrer"
           class="btn btn-secondary flex justify-center items-center mx-8"
         >
           <span> GITHUB</span>
           <FaGithub className="ml-2 w-5 h-6" />
         </a>
-        <a href="#!" class="btn btn-secondary flex justify-center items-center">
+        <a
+          href="https://drive.google.com/file/d/1FTc8ZFGxNIlOy2oigzk0jVlttuROmY7X/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          class="btn btn-secondary flex justify-center items-center"
+        >
           <span> RESUME</span>
           <FaDownload className="ml-2 w-5 h-6" />
         </a>
